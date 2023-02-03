@@ -19,6 +19,8 @@
 		3630468D28D897EA00010F4E /* GameAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3630468C28D897EA00010F4E /* GameAction.swift */; };
 		3630468F28D8985F00010F4E /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3630468E28D8985F00010F4E /* Direction.swift */; };
 		3630469128D898FA00010F4E /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3630469028D898FA00010F4E /* Position.swift */; };
+		36514465292F6603009DB347 /* GameLoop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36514464292F6603009DB347 /* GameLoop.swift */; };
+		36514467292F6F5A009DB347 /* Chance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36514466292F6F5A009DB347 /* Chance.swift */; };
 		3653AD4528F7191E00938B99 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3653AD4428F7191E00938B99 /* Observer.swift */; };
 		36549187292B9DA2000E0C7E /* ServiceLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36549186292B9DA2000E0C7E /* ServiceLocator.swift */; };
 		36549189292B9E09000E0C7E /* Decorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36549188292B9E09000E0C7E /* Decorator.swift */; };
@@ -52,6 +54,8 @@
 		3630468C28D897EA00010F4E /* GameAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameAction.swift; sourceTree = "<group>"; };
 		3630468E28D8985F00010F4E /* Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
 		3630469028D898FA00010F4E /* Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Position.swift; sourceTree = "<group>"; };
+		36514464292F6603009DB347 /* GameLoop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLoop.swift; sourceTree = "<group>"; };
+		36514466292F6F5A009DB347 /* Chance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chance.swift; sourceTree = "<group>"; };
 		3653AD4428F7191E00938B99 /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
 		36549186292B9DA2000E0C7E /* ServiceLocator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLocator.swift; sourceTree = "<group>"; };
 		36549188292B9E09000E0C7E /* Decorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decorator.swift; sourceTree = "<group>"; };
@@ -77,6 +81,7 @@
 			children = (
 				362CC8EE28F96E660071E97E /* Achievement.swift */,
 				3630468A28D897A700010F4E /* Button.swift */,
+				36514466292F6F5A009DB347 /* Chance.swift */,
 				3630468E28D8985F00010F4E /* Direction.swift */,
 				362CC8F028F96EB10071E97E /* Entity.swift */,
 				3620BC2328DC56A300DAC226 /* Error.swift */,
@@ -113,6 +118,7 @@
 				36549188292B9E09000E0C7E /* Decorator.swift */,
 				3629091F28FECB53008D011D /* Delegate.swift */,
 				3620BC2128DC527A00DAC226 /* Flyweight.swift */,
+				36514464292F6603009DB347 /* GameLoop.swift */,
 				3653AD4428F7191E00938B99 /* Observer.swift */,
 				362CC8F228F96F420071E97E /* Prototype.swift */,
 				36549186292B9DA2000E0C7E /* ServiceLocator.swift */,
@@ -182,6 +188,7 @@
 				3620BC2428DC56A300DAC226 /* Error.swift in Sources */,
 				3653AD4528F7191E00938B99 /* Observer.swift in Sources */,
 				3686448B28D5A7BB00955073 /* main.swift in Sources */,
+				36514465292F6603009DB347 /* GameLoop.swift in Sources */,
 				3630468B28D897A700010F4E /* Button.swift in Sources */,
 				3630469128D898FA00010F4E /* Position.swift in Sources */,
 				36549189292B9E09000E0C7E /* Decorator.swift in Sources */,
@@ -195,6 +202,7 @@
 				36E89A132906E05500C70E6E /* State.swift in Sources */,
 				3630468D28D897EA00010F4E /* GameAction.swift in Sources */,
 				366AAD8228FFEB6F0032FE7A /* Singleton.swift in Sources */,
+				36514467292F6F5A009DB347 /* Chance.swift in Sources */,
 				36549187292B9DA2000E0C7E /* ServiceLocator.swift in Sources */,
 				362CC8EF28F96E660071E97E /* Achievement.swift in Sources */,
 			);
